@@ -26,3 +26,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 "# shunuske0729" 
 "# shunuske0729" 
 "# shunuske0729" 
+"# kadai0813" 
