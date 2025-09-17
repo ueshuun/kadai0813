@@ -2,7 +2,7 @@
   
   <div class="weather">
     <h1>天気</h1>
-    <p>北海道：{{hokkaido}}</p>
+    <p>北海道：{{ hokkaido }}</p>
     <p>東京都：{{tokyo}}</p>
     <p>大阪府：{{osaka}}</p>
     <p>福岡県：{{hukuoka}}</p>

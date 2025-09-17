@@ -1,41 +1,42 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
+   <v-app-bar
+  app
+  color="#43AEFF"
+>
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+      <div class="d-flex align-center">
+       <v-img
+  src="@/assets/logo3.png"
+  alt="Trip.jp"
+  max-width="100"
+  max-height="60"
+  class="mr-2"
+  contain
+/>
+
+
+        <h1>Trip.jp</h1>
+
       </div>
 
       <v-spacer></v-spacer>
-      <v-btn text to="/Area" tag="router-link">都道府県</v-btn>
-      <v-btn text to="/Weather" tag="router-link">天気</v-btn>
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+       
+        <v-btn text to="/" tag="router-link" color="white">
+        <span>HOME</span>
+        <v-icon>mdi-home-circle</v-icon>
       </v-btn>
+    
+      <v-btn text to="/Like" tag="router-link" color="white">
+        <span>Like</span>
+        <v-icon>mdi-thumb-up</v-icon>
+      </v-btn>
+
+      <v-btn text to="/Customer" tag="router-link" color="white">
+        <span>Q&A</span>
+        <v-icon>mdi-chat-question</v-icon>
+      </v-btn>
+
     </v-app-bar>
 
     <v-main>
@@ -50,7 +51,13 @@ export default {
   name: 'App',
 
   data: () => ({
-    //
+    
   }),
 };
 </script>
+
+<style>
+.d-flex h1{
+  color: white;
+}</style>
+
