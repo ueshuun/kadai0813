@@ -29,3 +29,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 "# kadai0813" 
 "# kadai0813" 
 "# kadai0813" 
+"# 20252Q-ueda-Front" 
